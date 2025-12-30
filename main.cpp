@@ -4,8 +4,11 @@
 
 int main(){
     OpenMap<int, char> test{};
-    // test.insert(12, 'x');
+    test.insert(12, 'x');
     // test.insert(12, 'c');
+    std::cout << test.size() << std::endl;
+
+
 
     
 
